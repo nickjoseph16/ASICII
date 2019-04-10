@@ -11,6 +11,8 @@ set link_library [ list /mnt/class_data/ecec574-w2019/PDKs/SAED32nm_new/lib/stdc
 
 set target_library [ list /mnt/class_data/ecec574-w2019/PDKs/SAED32nm_new/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95v25c.db ]
 
+# This is nick
+
 ## read the verilog files
 analyze -library WORK -format verilog [list fpu.v bw_clk_cl_fpu_cmp.v
 fpu_add_ctl.v
